@@ -1,0 +1,18 @@
+main{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 150px;
+    button{
+        width: 100px;
+    }
+}
+.block-filter{
+    width: 20%;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    transition: 1s;
+}

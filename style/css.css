@@ -84,4 +84,26 @@ menu ul li a {
 menu ul li a:hover {
   background-color: #582b2b;
 }
+
+main {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 150px;
+}
+
+main button {
+  width: 100px;
+}
+
+.block-filter {
+  width: 20%;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
 /*# sourceMappingURL=css.css.map */

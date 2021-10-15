@@ -63,10 +63,12 @@ menu{
                 margin: 0 10px;
                 font-size: 1.2em;
                 color: white;
+                &:hover{
+                    background-color: rgb(88, 43, 43);
+                }
             }
-            a:hover{
-                background-color: rgb(88, 43, 43);
-            }
+            
         }
     }
 }
+@import 'main.scss';
