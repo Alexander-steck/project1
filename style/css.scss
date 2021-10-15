@@ -1,4 +1,72 @@
+%equal-heights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  $a-decoration-text: none;
 body{
     margin: 0;
     padding: 0;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(107, 41, 41);
+    z-index: 10;
+    article{
+        width: 100%;
+        @extend %equal-heights;
+        a{
+            display: inline-block;
+            padding: 5px,10px;
+            margin: 10px;
+            text-decoration: $a-decoration-text;
+            color: black;
+            font-size: 1.5em;
+
+        }
+    }
+}
+menu{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    .button_gamburger{
+        font: inherit;
+        color: inherit;
+        border: inherit;
+        background-color: white;
+        display: none;
+        img{
+            width: 100%;
+            height: 40px;
+            object-fit: cover;
+        }
+    }
+}
+menu{
+    ul{
+        padding: 0;
+        margin: 0;
+        li{
+            display: inline-block;
+            list-style: none;
+            a{
+                text-decoration: $a-decoration-text;
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: rgb(134, 67, 67);
+                margin: 0 10px;
+                font-size: 1.2em;
+                color: white;
+            }
+            a:hover{
+                background-color: rgb(88, 43, 43);
+            }
+        }
+    }
 }
